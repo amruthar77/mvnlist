@@ -19,7 +19,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'mvn exec:java -Dexec.mainClass="com.example.App'  // Run unit tests
+                sh 'mvn exec:java -Dexec.mainClass="com.example.App"'  // Run unit tests
             }
         }
 
